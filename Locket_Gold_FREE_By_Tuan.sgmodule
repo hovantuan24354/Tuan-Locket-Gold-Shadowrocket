@@ -1,9 +1,27 @@
-#!name=Locket Gold (FREE) - By Tuấn
-#!desc=By: Hồ Văn Tuấn LocketGold
+#!url=https://raw.githubusercontent.com/hovantuan24354/Tuan-Locket-Gold-Shadowrocket/main/Locket_Gold_FREE_By_Tuan.sgmodule
+#!name=Locket Gold (FREE) - By Hồ Văn Tuấn
+#!desc=Crack By: Hồ Văn Tuấn
+
+# ~ By Hồ Văn Tuấn
+# ～ Egern transfer to Shadowrocket & Surge & LanceX
+
+                                                                                                                                                                                                         
+@@@  @@@   @@@@@@      @@@  @@@   @@@@@@   @@@  @@@     @@@@@@@  @@@  @@@   @@@@@@   @@@  @@@     @@@        @@@@@@    @@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@      @@@@@@@@   @@@@@@   @@@       @@@@@@@   
+@@@  @@@  @@@@@@@@     @@@  @@@  @@@@@@@@  @@@@ @@@     @@@@@@@  @@@  @@@  @@@@@@@@  @@@@ @@@     @@@       @@@@@@@@  @@@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@     @@@@@@@@@  @@@@@@@@  @@@       @@@@@@@@  
+@@!  @@@  @@!  @@@     @@!  @@@  @@!  @@@  @@!@!@@@       @@!    @@!  @@@  @@!  @@@  @@!@!@@@     @@!       @@!  @@@  !@@       @@!  !@@  @@!         @@!       !@@        @@!  @@@  @@!       @@!  @@@  
+!@!  @!@  !@!  @!@     !@!  @!@  !@!  @!@  !@!!@!@!       !@!    !@!  @!@  !@!  @!@  !@!!@!@!     !@!       !@!  @!@  !@!       !@!  @!!  !@!         !@!       !@!        !@!  @!@  !@!       !@!  @!@  
+@!@!@!@!  @!@  !@!     @!@  !@!  @!@!@!@!  @!@ !!@!       @!!    @!@  !@!  @!@!@!@!  @!@ !!@!     @!!       @!@  !@!  !@!       @!@@!@!   @!!!:!      @!!       !@! @!@!@  @!@  !@!  @!!       @!@  !@!  
+!!!@!!!!  !@!  !!!     !@!  !!!  !!!@!!!!  !@!  !!!       !!!    !@!  !!!  !!!@!!!!  !@!  !!!     !!!       !@!  !!!  !!!       !!@!!!    !!!!!:      !!!       !!! !!@!!  !@!  !!!  !!!       !@!  !!!  
+!!:  !!!  !!:  !!!     :!:  !!:  !!:  !!!  !!:  !!!       !!:    !!:  !!!  !!:  !!!  !!:  !!!     !!:       !!:  !!!  :!!       !!: :!!   !!:         !!:       :!!   !!:  !!:  !!!  !!:       !!:  !!!  
+:!:  !:!  :!:  !:!      ::!!:!   :!:  !:!  :!:  !:!       :!:    :!:  !:!  :!:  !:!  :!:  !:!      :!:      :!:  !:!  :!:       :!:  !:!  :!:         :!:       :!:   !::  :!:  !:!   :!:      :!:  !:!  
+::   :::  ::::: ::       ::::    ::   :::   ::   ::        ::    ::::: ::  ::   :::   ::   ::      :: ::::  ::::: ::   ::: :::   ::  :::   :: ::::     ::        ::: ::::  ::::: ::   :: ::::   :::: ::  
+ :   : :   : :  :         :       :   : :  ::    :         :      : :  :    :   : :  ::    :      : :: : :   : :  :    :: :: :   :   :::  : :: ::      :         :: :: :    : :  :   : :: : :  :: :  :   
+                                                                                                                                                                                                         
+
 
 [Script]
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/DungHoang120401/Nobita/refs/heads/main/Scripts/Locket_Gold.js, requires-body=true, max-size=-1, timeout=60
-deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/DungHoang120401/Nobita/refs/heads/main/Scripts/LKG_delete_header.js, timeout=60
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/hovantuan24354/Tuan-Locket-Gold-Shadowrocket/main/Scripts/Locket_Gold.js, requires-body=true, max-size=-1, timeout=60
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/hovantuan24354/Tuan-Locket-Gold-Shadowrocket/main/Scripts/LKG_delete_header.js, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com
